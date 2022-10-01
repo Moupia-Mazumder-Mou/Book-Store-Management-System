@@ -1,0 +1,222 @@
+body {
+	background-color: white;
+}
+form {
+	display: grid;
+	justify-content: center;
+}
+input[type=text]{
+	border: none;
+	border-bottom: 2px dashed black;
+}
+input[type=password]{
+	border: none;
+	border-bottom: 2px dashed black;
+}
+input[type=button]{
+	padding: 10px 30px;
+}
+label{
+	display: inline-block;
+	width: 100%;
+}
+label[for=terms]{
+}
+.spacer10v {
+	padding-top: 10px;
+}
+.spacer20v {
+	padding-top: 20px;
+}
+.spacer10h {
+	padding-right: 10px;
+}
+.colorBlack{
+	color: black;
+}
+.colorGreen{
+	color: #27B673;
+}
+.colorBlue{
+	color: #00AAEF;
+}
+.gridRowItem{
+	display: grid;
+	grid-row: 1;
+}
+.gridColumnItem{
+	display: grid;
+	grid-column: 1;
+}
+.justifyCenter{
+	justify-content: center;
+}
+.border{
+	padding: 10px;
+	border: 1px solid white;
+}
+.centerText{
+	text-align: center;
+}
+.greenDiv {
+	padding: 10px 20px;
+	background-color: #27B673;
+	color: white;
+}
+.blueDiv {
+	padding: 10px 0px;
+	background-color: #00AAEF;
+	color: white;
+}
+.navbar {
+	display: grid;
+	align-content: center;
+	align-items: center;
+	justify-content: space-between;
+}
+.navLeftItem {
+	display:grid;
+	grid-column:1;
+	gap: 10px;
+}
+.error{
+	color: red;
+}
+.navLink>a{
+	color:white;
+	text-decoration:none;
+	padding:0px 10px;
+}
+.navRightItem {
+	display:grid;
+	grid-column:2;
+	gap: 10px;
+	align-items:center;
+}
+.greenDiv>a {
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+}
+.welcomeBody {
+  padding: 10px;
+  justify-content: space-between;
+  display: grid;
+  gap: 10px;
+}
+.welcomeBody>img {
+	height: 250px;
+	display: grid;
+	grid-row: 1;
+}
+.welcomeBody>div {
+	display: grid;
+	grid-row: 1;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.welcomeBody>div>.book {
+  font-size: 100px;
+  display: grid;
+  justify-content: end;
+}
+.welcomeBody>div>.store {
+  font-size: 60px;
+  display: grid;
+  justify-content: end;
+}
+.aboutBody {
+  padding: 10px;
+  justify-content: space-between;
+  align-content:center;
+  align-items:center;
+  display: grid;
+  gap: 10px;
+}
+.aboutBody>div {
+	display: grid;
+	justify-content: center;
+	grid-row: 1;
+	align-items: center;
+	align-content: center;
+}
+.review{
+	display:grid;
+	justify-content:center;
+	align-items: center;
+	gap: 20px;
+}
+.bottomSection {
+	color: white;
+	padding: 10px;
+	justify-content: space-between;
+	display: grid;
+	gap: 10px;
+	background-color: #3E3E3F;
+	align-items: center;
+}
+.contactUs {
+	justify-content: center;
+	align-items: center;
+	align-content: end;
+}
+.contactUsText {
+	display: grid;
+	justify-content: center;
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+.contactUsItem {
+	display: grid;
+	grid-column: 1;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	padding: 10px;
+	border: 1px solid white;
+}
+.other{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.signUp {
+	padding: 10px;
+	justify-content: center;
+	display: grid;
+	gap: 10px;
+	align-items: center;
+}
+.termLabel {
+	display:inline;
+}
+.adminForm{
+	padding: 10px;
+	justify-content: center;
+	display: grid;
+	gap: 10px;
+	align-items: center;
+}
+.adminFormGap{
+	gap: 50px;
+}
+.adminForm>form>.gridColumnItem>.gridRowItem>input[type=text]{
+	border: 1px solid black;
+}
+.adminForm>form>.gridColumnItem>.gridRowItem>input[type=password]{
+	border: 1px solid black;
+}
+.adminForm>form>.gridColumnItem>.gridRowItem>input[type=select]{
+	border: 1px solid black;
+}
+.galleryItem{
+	display:grid;
+}
+.gallery{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
